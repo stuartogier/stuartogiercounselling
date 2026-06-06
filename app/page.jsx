@@ -65,7 +65,7 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
           </div>
 
           <div className="about__photo-b fade-up delay-2">
-            <Image src="/images/chair2.png" alt="Therapy room" fill style={{ objectFit: 'cover' }} />
+            <Image src="/images/chair3.png" alt="Therapy room" fill style={{ objectFit: 'cover' }} />
           </div>
         </div>
       </section>
@@ -124,7 +124,7 @@ I am currently completing my Level 4 Diploma and working with clients through su
           <div className="contact-panel fade-up delay-1">
             <div className="contact-panel__copy">
               <p className="section__label">Get in touch</p>
-              <h2 className="contact__heading">Let&apos;s talk</h2>
+              <h2 className="contact__heading">Let&apos;s talk.</h2>
               <p className="contact__intro">
                 Either email me directly or use the form and I&apos;ll get back to you as soon as possible.
               </p>
