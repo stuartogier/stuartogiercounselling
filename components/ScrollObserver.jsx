@@ -19,5 +19,21 @@ export default function ScrollObserver() {
     return () => obs.disconnect();
   }, []);
 
+  useEffect(() => {
+    const nav = document.querySelector('.nav');
+    if (!nav) return;
+
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        nav.classList.add('nav--scrolled');
+      } else {
+        nav.classList.remove('nav--scrolled');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return null;
 }
