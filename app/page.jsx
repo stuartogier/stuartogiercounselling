@@ -42,13 +42,8 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
             I came to counselling through lived experience and a desire to give back.
           </h2>
 
-          <div className="about__photos fade-up delay-2">
-            <div className="about__photo-a">
-                <Image src="/images/me2.png" alt="Stuart Ogier" fill style={{ objectFit: 'cover' }} />
-            </div>
-            <div className="about__photo-b">
-              <Image src="/images/chair2.png" alt="Stuart Ogier" fill style={{ objectFit: 'cover' }} />
-            </div>
+          <div className="about__photo-a fade-up delay-2">
+            <Image src="/images/me2.png" alt="Stuart Ogier" fill style={{ objectFit: 'cover' }} />
           </div>
 
           <div className="about__body fade-up delay-3">
@@ -67,6 +62,10 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
               Counselling at Langley Therapy and Training, working with clients through
               supervised placements as part of my training.
             </p>
+          </div>
+
+          <div className="about__photo-b fade-up delay-2">
+            <Image src="/images/chair2.png" alt="Therapy room" fill style={{ objectFit: 'cover' }} />
           </div>
         </div>
       </section>
