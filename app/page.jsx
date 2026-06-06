@@ -73,7 +73,7 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
       {/* ── DARK PHOTO — how I work intro ── */}
       <div className="dark-photo" id="how">
         <div className="dark-photo__bg">
-<Image src="/images/mountain.jpg" alt="" fill style={{ objectFit: 'cover' }} />
+<Image src="/images/mountain.jpg" alt="Mountain" fill style={{ objectFit: 'cover' }} />
           <div className="dark-photo__bg-placeholder">Photo</div>
         </div>
         <div className="dark-photo__overlay" />
