@@ -89,7 +89,7 @@ a { color: inherit; text-decoration: none; }
   transition: color 0.4s ease, font-size 0.4s ease;
 }
 .nav--scrolled .nav__logo-name {
-  color: var(--plum-mid);
+  color: #1e2838;
   font-size: 1.36rem;
 }
 .nav__logo-icon {
@@ -115,7 +115,7 @@ a { color: inherit; text-decoration: none; }
   transition: background 0.4s ease, color 0.4s ease;
 }
 .nav--scrolled .nav__cta {
-  background: #1F2E1F;
+  background: #1e2838;
   color: #fff;
 }
 
@@ -169,7 +169,7 @@ a { color: inherit; text-decoration: none; }
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: #1F2E1F;
+  background: #1e2838;
   color: #fff;
   font-size: 0.85rem;
   font-weight: 500;
@@ -343,7 +343,7 @@ a { color: inherit; text-decoration: none; }
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #003059;
+  color: #42577a;
   margin-bottom: 1.25rem;
 }
 .section--plum .section__label { color: #fff; }
@@ -702,7 +702,7 @@ a { color: inherit; text-decoration: none; }
    FOOTER
 ══════════════════════════════════════ */
 .footer {
-  background: #1F2E1F;
+  background: #1e2838;
   padding: 1rem var(--pad-x);
 }
 .footer__inner {
