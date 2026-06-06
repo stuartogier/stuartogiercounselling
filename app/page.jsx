@@ -12,7 +12,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero__bg">
           <video
-            src="/images/152742-803732918.mp4"
+            src="/images/hero.mp4"
             autoPlay
             muted
             loop
