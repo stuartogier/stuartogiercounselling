@@ -318,8 +318,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero__desc {
-  font-size: 1.2rem;
-  line-height: 1.8;
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  line-height: clamp(1.5rem, 3vw, 1.9rem);
   color: rgba(255,255,255,1);
   width: 100%;
 }
@@ -415,9 +415,7 @@ a { color: inherit; text-decoration: none; }
 
 .about__body {
   font-size: clamp(1rem, 3vw, 1.1rem);
-
-
-  line-height: 1.9;
+  line-height: clamp(1.5rem, 3vw, 1.9rem);
   color: var(--text-dark);
   width: 60%;
   margin-left: auto;
@@ -479,18 +477,14 @@ a { color: inherit; text-decoration: none; }
 .dark-photo__heading em { font-style: italic; font-weight: 400; }
 .dark-photo__body {
   font-size: clamp(1rem, 3vw, 1.1rem);
-
-
-  line-height: 1.85;
+  line-height: clamp(1.5rem, 3vw, 1.9rem);
   color: #fff;
   width: 60%;
   margin-bottom: 2rem;
 }
 .light-photo__body {
   font-size: clamp(1rem, 3vw, 1.1rem);
-
-
-  line-height: 1.85;
+  line-height: clamp(1.5rem, 3vw, 1.9rem);
   width: 60%;
   margin-bottom: 2rem;
 }
@@ -764,6 +758,10 @@ a { color: inherit; text-decoration: none; }
   .dark-photo__heading { width: 100%; }
   .dark-photo__body { width: 100%; }
   .creds__list li { width: 100%; }
+  .light-photo__body { width: 100%; }
+  .contact-panel { grid-template-columns: 1fr; }
+  .contact-panel__copy { min-width: 0; width: 100%; }
+  .contact__intro { max-width: 100%; }
   .contact__grid { grid-template-columns: 1fr; gap: 1.25rem; }
   .nav__cta { display: none; }
   .footer { flex-direction: column; align-items: flex-start; }
