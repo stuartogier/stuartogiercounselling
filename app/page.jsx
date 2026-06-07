@@ -58,9 +58,7 @@ export default function Home() {
               the heart of how I work.
             </p>
             <p>
-              I am currently completing my Level 4 Diploma in Therapeutic Integrative
-              Counselling at Langley Therapy and Training. I am working with clients through
-              supervised placements as part of that course and not yet seeing clients privately.
+              I am currently completing my Level 4 Diploma in Therapeutic Integrative Counselling at Langley Therapy and Training. I work with clients through supervised placements as part of that course, based in St Albans, Hertfordshire.
             </p>
           </div>
 
@@ -83,12 +81,9 @@ export default function Home() {
             Person-centred, integrative, present.
           </h2>
           <p className="dark-photo__body fade-up delay-1">
-            You are the expert on your own life. My role is not to advise or fix, it&apos;s
-            to be curious, present, and genuinely with you as you explore what&apos;s going on.
-            I work with people facing anxiety, depression, addiction, bereavement, low
-            self-esteem, life transitions, and relationship challenges. As an integrative
-            counsellor I draw on a range of therapeutic approaches, always with the
-            relationship between us at the centre.
+            You are the expert on your own life. My role is not to advise or fix, it's to be curious, present, and genuinely with you as you explore what's going on. 
+            I work with people facing anxiety, depression, addiction, bereavement, low self-esteem, life transitions, and relationship challenges. 
+            Sessions are available in person in St Albans or online. As an integrative counsellor I draw on a range of therapeutic approaches, always with the relationship between us at the centre.
           </p>
         </div>
       </div>
@@ -101,7 +96,7 @@ export default function Home() {
             Counsellor in training.
           </h2>
           <p className="light-photo__body fade-up delay-1">
-            I&apos;m currently working towards my Level 4 Diploma and will be welcoming private clients from summer 2027.
+            I'm currently working towards my Level 4 Diploma and will be welcoming private clients from summer 2027.  
           </p>
           <ul className="creds__list">
             {[
@@ -124,7 +119,7 @@ export default function Home() {
               <p className="section__label">Get in touch</p>
               <h2 className="contact__heading">Let&apos;s talk.</h2>
               <p className="contact__intro">
-                Either email me directly or use the form and I&apos;ll get back to you as soon as possible.
+                Either email me directly or use the form below. I aim to respond within 48 hours.
               </p>
               <a href="mailto:hi@stuartogiercounselling.com" className="contact__email">
                 hi@stuartogiercounselling.com

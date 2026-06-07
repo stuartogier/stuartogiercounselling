@@ -4,7 +4,7 @@ import './style.css';
 export const metadata = {
   title: 'Stuart Ogier | Integrative Counsellor',
   description:
-    'Stuart Ogier is a counsellor in training offering a confidential, non-judgemental space for people facing anxiety, depression, addiction, bereavement, and life transitions. Based in Hertfordshire.',
+    'Stuart Ogier is a counsellor in training offering a confidential, non-judgemental space for people facing anxiety, depression, addiction, bereavement, and life transitions. Based in St Albans, Hertfordshire — sessions in person and online.',
   authors: [{ name: 'Stuart Ogier' }],
   robots: { index: true, follow: true },
   openGraph: {
