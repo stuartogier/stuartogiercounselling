@@ -27,7 +27,7 @@ export default function Home() {
           </h1>
           <div className="hero__bottom">
             <p className="hero__desc">
-I'm Stuart Ogier. I offer a confidential space for people who wish to talk through their challenges.
+              I&apos;m Stuart Ogier. I offer a confidential space for people who wish to talk through their challenges.
             </p>
           </div>
         </div>
@@ -58,9 +58,9 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
               the heart of how I work.
             </p>
             <p>
-              I am currently studying for a Level 4 Diploma in Integrative Therapeutic
-              Counselling at Langley Therapy and Training, working with clients through
-              supervised placements as part of my training.
+              I am currently completing my Level 4 Diploma in Therapeutic Integrative
+              Counselling at Langley Therapy and Training. I am working with clients through
+              supervised placements as part of that course and not yet seeing clients privately.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
       {/* ── DARK PHOTO — how I work intro ── */}
       <div className="dark-photo" id="how">
         <div className="dark-photo__bg">
-<Image src="/images/mountain.jpg" alt="Mountain" fill style={{ objectFit: 'cover' }} />
+          <Image src="/images/mountain.jpg" alt="Mountain" fill style={{ objectFit: 'cover' }} />
           <div className="dark-photo__bg-placeholder">Photo</div>
         </div>
         <div className="dark-photo__overlay" />
@@ -83,17 +83,15 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
             Person-centred, integrative, present.
           </h2>
           <p className="dark-photo__body fade-up delay-1">
-            You are the expert on your own life. My role is not to advise or fix,  it&apos;s
+            You are the expert on your own life. My role is not to advise or fix, it&apos;s
             to be curious, present, and genuinely with you as you explore what&apos;s going on.
             I work with people facing anxiety, depression, addiction, bereavement, low
             self-esteem, life transitions, and relationship challenges. As an integrative
             counsellor I draw on a range of therapeutic approaches, always with the
             relationship between us at the centre.
           </p>
-
         </div>
       </div>
-
 
       {/* ── CREDENTIALS ── */}
       <section className="section section--cream-dark" id="credentials">
@@ -102,9 +100,9 @@ I'm Stuart Ogier. I offer a confidential space for people who wish to talk throu
           <h2 className="about__heading fade-up delay-1">
             Counsellor in training.
           </h2>
-                    <p className="light-photo__body fade-up delay-1">
-I am currently completing my Level 4 Diploma and working with clients through supervised placements as part of my training. I am not yet seeing clients privately.
-        </p>
+          <p className="light-photo__body fade-up delay-1">
+            I&apos;m currently working towards my Level 4 Diploma and will be welcoming private clients from summer 2027.
+          </p>
           <ul className="creds__list">
             {[
               'Level 4 Diploma in Therapeutic Integrative Counselling, CPCAB (currently studying)',
@@ -114,7 +112,7 @@ I am currently completing my Level 4 Diploma and working with clients through su
             ].map((item, i) => (
               <li key={i} className="fade-up">{item}</li>
             ))}
-          </ul> 
+          </ul>
         </div>
       </section>
 
