@@ -17,7 +17,7 @@ export const metadata = {
     url: '/',
     locale: 'en_GB',
     siteName: 'Stuart Ogier Counselling',
-    images: [{ url: '/images/og.png', width: 1200, height: 630, alt: 'Stuart Ogier Counselling — St Albans & online' }],
+    images: [{ url: '/images/og.png', width: 1200, height: 900, alt: 'Stuart Ogier Counselling — St Albans & online' }],
   },
   twitter: {
     card: 'summary_large_image',
