@@ -96,7 +96,7 @@ export default function Home() {
             Counsellor in training.
           </h2>
           <p className="light-photo__body fade-up delay-1">
-            I'm currently working towards my Level 4 Diploma and will be welcoming private clients from summer 2027.  
+            I'm currently working towards my Level 4 Diploma, seeing clients on supervised placement with an addiction recovery charity in Hertfordshire and a local counselling service. I look forward to welcoming private clients from summer 2027.
           </p>
           <ul className="creds__list">
             {[
@@ -104,6 +104,7 @@ export default function Home() {
               'Level 3 Certificate in Counselling Studies, CPCAB',
               'Level 2 Certificate in Counselling Skills, CPCAB',
               'Samaritans listening volunteer since 2019',
+              'Student member, British Association for Counselling and Psychotherapy (BACP)',
             ].map((item, i) => (
               <li key={i} className="fade-up">{item}</li>
             ))}
